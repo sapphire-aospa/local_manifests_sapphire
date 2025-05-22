@@ -3,30 +3,25 @@
 <!-- Generated using sounddrill31/actions_generate_local_manifests -->
 
     <!-- Remotes -->
-    <remote name="sapphire-sm6225" fetch="https://github.com/sapphire-sm6225" clone-depth="1" />
-    <remote name="saroj-nokia" fetch="https://github.com/saroj-nokia" clone-depth="1" />
-    <remote name="Angelpro09xd" fetch="https://github.com/Angelpro09xd" clone-depth="1" />
+    <remote name="sapphire-aospa" fetch="https://github.com/sapphire-aospa" clone-depth="1" />
 
     <!-- Removals -->
 
     <!-- Repos -->
-    <!-- Device -->
-    <project path="device/xiaomi/sapphire-kernel" name="device_xiaomi_sapphire-kernel" remote="saroj-nokia" revision="15" />
-    <project path="device/xiaomi/sepolicy" name="device_xiaomi_sepolicy" remote="sapphire-sm6225" revision="15" />
-    <project path="device/xiaomi/sapphire" name="device_xiaomi_sapphire" remote="Angelpro09xd" revision="sapphire-clo" />
 
+    <!-- Device -->
+    <project path="device/xiaomi/sapphire-kernel" name="device_xiaomi_sapphire-kernel" remote="sapphire-aospa" revision="15" />
+    <project path="device/xiaomi/sapphire" name="device_xiaomi_sapphire" remote="sapphire-aospa" revision="sapphire-clo" />
+    <project path="vendor/xiaomi/sapphire" name="vendor_xiaomi_sapphire" remote="sapphire-aospa" revision="15-clo" />
     <!-- Device - Common -->
 
     <!-- Kernel -->
     
     <!-- Vendor -->
-    <project path="vendor/xiaomi/sapphire" name="vendor_xiaomi_sapphire" remote="Angelpro09xd" revision="15-wip" />
-    <project path="vendor" name="keys-for-lineage20" remote="saroj-nokia" revision="main" />
-
-
+    <project path="vendor/xiaomi/sapphire" name="vendor_xiaomi_sapphire" remote="sapphire-aospa" revision="15-clo" />
     <!-- Vendor - Common -->
-    <!-- Hardware -->
 
+    <!-- Hardware -->
 
 />
 
