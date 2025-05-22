@@ -4,4 +4,4 @@ This repository contains the **local manifests** required to build **Sapphire ao
 To get started quickly, clone everything you need using the following command:
 
 ```bash
-git clone https://github.com/Angelpro09xd/local_manifests_sapphire.git --depth 1 -b sapphire-clo .repo/local_manifests
+git clone https://github.com/sapphire-aospa/local_manifests_sapphire.git --depth 1 -b sapphire-clo .repo/local_manifests
